@@ -75,7 +75,7 @@ public class CoffeeMakerTest {
 		recipe2.setAmtSugar("9");
 		recipe2.setPrice("10");*/
 
-		recipe3 = new Recipe();
+		/*recipe3 = new Recipe();
 		recipe3.setName("Coffee3");
 		recipe3.setAmtChocolate("0");
 		recipe3.setAmtCoffee("0");
@@ -83,6 +83,13 @@ public class CoffeeMakerTest {
 		recipe3.setAmtSugar("0");
 		recipe3.setPrice("0");
 
+		/*recipe4 = new Recipe();
+		recipe4.setName("Coffee1");
+		recipe4.setAmtChocolate("1");
+		recipe4.setAmtCoffee("2");
+		recipe4.setAmtMilk("3");
+		recipe4.setAmtSugar("4");
+		recipe4.setPrice("5");
 		//Set up for r3
 		/*recipe3 = new Recipe();
 		recipe3.setName("Latte");
@@ -178,13 +185,13 @@ public class CoffeeMakerTest {
 	public void testMakeCoffee() {
 		coffeeMaker.addRecipe(recipe1);
 		assertEquals(3, coffeeMaker.makeCoffee(0, 8));
-		assertTrue(0, coffeeMaker.makeCoffee(0, 5));
+		/*assertTrue(0, coffeeMaker.makeCoffee(0, 5));
 		/*assertFalse(0, coffeeMaker.makeCoffee(0, 5));*/
 
 
 	}
 
-	@Test 
+	/*@Test 
 	public void testMakeCoffee1() {
 		assertFalse(coffeeMaker.addRecipe(recipe1));
 		assertTrue(3, coffeeMaker.makeCoffee(1, 8));
